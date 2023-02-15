@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Formulário de contato</legend>
+
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome">
+
+            <br>
+            <label for="sobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome">
+
+
+            <p>Genero: </p>
+            <select name="sexo" id="sexo">
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Outros">Outros</option>
+            </select>
+
+            <p>Descreva mais sobre voce: </p>
+           <div>
+            <textarea name="sobre" id="sobre" cols="50" rows="5"></textarea>
+           </div>
+
+           <div>
+            <p>Data de nascimento: </p>
+            <input type="date" name="data" id="data">
+           </div>
+
+           <div>
+            <p>Email: </p>
+            <input type="email" name="email" id="email">
+            <p>Senha: </p>
+            <input type="password" name="password" id="password">
+           </div>
+
+           <p>Aceita os termos e condições <input type="checkbox" name="acepta" value="1"></p>
+
+           <div>
+            <p>Prefere dia ou noite?</p>
+            <span>dia</span>
+            <input type="radio" name="day" id="dia">
+            <span>noite</span>
+            <input type="radio" name="day" id="noite">
+           </div>
+           <div>
+            <br>
+            <button type="reset">Limpar formulário</button>
+            <button type="submit">Enviar formulário</button>
+            <button>Nao fazer nada</button>
+           </div>
+        </fieldset>
+    </form>
+</body>
+</html>

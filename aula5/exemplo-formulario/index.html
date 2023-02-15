@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de formulario</title>
+</head>
+
+<body>
+
+    <form>
+
+        <h2>Dados pessoais</h2>
+        <label for="name">Nome: </label>
+        <input type="text" name="name" value="samira">
+
+        <label for="sobrenome">Sobrenome: </label>
+        <input type="text" name="sobrenome">
+
+        <p>Genero: </p>
+        <select name="genero" id="genero">
+            <option value="genero_feminino">Feminino</option>
+            <option value="genero_masculino">Masculino</option>
+        </select>
+
+        <div>
+            <p>Cor favorita: </p>
+
+            <input type="checkbox" name="cor-favorita" value="vermelho">
+            <span>Vermelho</span>
+
+            <br>
+            <input type="checkbox" name="cor-favorita" value="verde">
+            <span>Verde</span>
+         
+
+            <br>
+            <span>Amarelo</span>
+            <input type="checkbox" name="cor-favorita" value="amarelo">
+        </div>
+
+        <div>
+            <p>Cor favorita: (apenas uma)</p>
+
+            <span>Vermelho</span>
+            <input type="radio" name="apenas-uma-cor" value="vermelho">
+
+            <span>Verde</span>
+            <input type="radio" name="apenas-uma-cor" value="verde">
+
+            <span>Azul</span>
+            <input type="radio" name="apenas-uma-cor" value="azul">
+
+        </div>
+
+        <input type="date" name="data-nascimento" id="data-nascimento">
+        <input type="email" name="email" id="email" value="samiramanuelac@gmail.com">
+        <input type="password" name="password" id="password">
+
+
+        <button type="submit">Enviar formulario</button>
+        <button type="reset">Limpar formulario</button>
+    </form>
+</body>
+
+</html>
